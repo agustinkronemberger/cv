@@ -162,6 +162,29 @@ body.dark .card {
     background: #1e1e1e;
 }
 
+/* Estilos para educación */
+.education-item {
+    margin-bottom: 30px;
+    border-left: 4px solid var(--accent); /* Una línea de color al costado queda muy bien */
+    padding-left: 20px;
+}
+
+.education-item h3 {
+    font-size: 1.4rem;
+    color: var(--primary);
+}
+
+.institution {
+    font-weight: 600;
+    color: var(--accent);
+    margin: 5px 0;
+}
+
+.status {
+    font-style: italic;
+    color: #666;
+}
+
 /* Estilos para los botones de contacto */
 .contact-buttons {
     display: flex;
