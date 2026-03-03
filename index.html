@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
@@ -97,16 +98,26 @@
 
     <!-- CONTACTO -->
     <section id="contacto" class="section fade-in">
-        <h2>Contacto</h2>
+     <h2>Contacto</h2>
+     <p>¿Tienes alguna propuesta o consulta? ¡Hablemos!</p>
 
-        <form id="contactForm">
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Email" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button type="submit" class="btn">Enviar</button>
-        </form>
+     <div class="contact-buttons">
+        <a href="https://wa.me/5493413546908" target="_blank" class="btn btn-wsp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+        </a>
 
-        <p id="formMessage"></p>
+        <a href="mailto:tu-correo@gmail.com" class="btn btn-gmail">
+            <i class="fas fa-envelope"></i> Enviar Correo
+        </a>
+     </div>
+
+     <form id="contactForm">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button type="submit" class="btn">Enviar Formulario</button>
+     </form>
+     <p id="formMessage"></p>
     </section>
 
     <!-- FOOTER -->
