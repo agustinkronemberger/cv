@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: var(--secondary);
     color: var(--text);
     scroll-behavior: smooth;
