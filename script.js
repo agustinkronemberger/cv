@@ -29,19 +29,3 @@ window.addEventListener('scroll', () => {
         }
     });
 });
-
-
-// Formulario
-document.getElementById('contactForm').addEventListener('submit', function(e){
-    e.preventDefault();
-    document.getElementById('formMessage').textContent = 
-        "Mensaje enviado correctamente ✅";
-    this.reset();
-});
-
-
-// Dark mode
-const toggle = document.getElementById('darkModeToggle');
-toggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark');
-});
